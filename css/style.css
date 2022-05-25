@@ -44,6 +44,9 @@ body {
 #hartleypage {
 	cursor: url('../images/hartleypointer.png'), auto;
 }
+#watchingpage {
+	cursor: url('../images/watchingpointer.png'), auto;
+}
 a {
 	cursor: url('../images/link.png'), auto;
 }
