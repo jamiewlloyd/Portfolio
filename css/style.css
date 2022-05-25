@@ -105,7 +105,8 @@ h1 {
 	background-image: linear-gradient(90deg, #ff5f5f 0%, #ff5f5f 100%);
 	background-repeat: no-repeat;
 	background-size: 100% 0.3em;
-	background-position: 0 80%;
+	background-position-x: 0;
+	background-position-y: 80%;
 	transition: background-size 0.2s ease-in;
 }
 @media (hover: hover) {
@@ -296,6 +297,10 @@ h1 {
 	}
 	.project-space {
 		height: 40px;
+	}
+	.fancy-undeline {
+		background-position-x: 0;
+		background-position-y: 77%;
 	}
 }
 @media only screen and (max-width: 350px) {
