@@ -297,6 +297,9 @@ h1 {
 	.project-space {
 		height: 40px;
 	}
+	.fancy-undeline {
+		background-position: 0 75%;
+	}
 }
 @media only screen and (max-width: 350px) {
 	.logo {
