@@ -23,32 +23,29 @@ audio, video {
 :focus-visible {
     outline: -webkit-focus-ring-color none 0px;
 }
-html {
-	cursor: url('images/pointer.png'), auto;
-}
 body {
 	font-family: quasimoda,sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	cursor: url('images/pointer.png'), auto;
+	cursor: url('../images/pointer.png'), auto;
 }
 #fluxpage {
-	cursor: url('images/fluxpointer.png'), auto;
+	cursor: url('../images/fluxpointer.png'), auto;
 }
 #macawpage {
-	cursor: url('images/macawpointer.png'), auto;
+	cursor: url('../images/macawpointer.png'), auto;
 }
 #pacificpage {
-	cursor: url('images/pacificpointer.png'), auto;
+	cursor: url('../images/pacificpointer.png'), auto;
 }
 #karenspage {
-	cursor: url('images/karenspointer.png'), auto;
+	cursor: url('../images/karenspointer.png'), auto;
 }
 #hartleypage {
-	cursor: url('images/hartleypointer.png'), auto;
+	cursor: url('../images/hartleypointer.png'), auto;
 }
 a {
-	cursor: url('images/link.png'), auto;
+	cursor: url('../images/link.png'), auto;
 }
 #wrapper {
 	width: 100%;
