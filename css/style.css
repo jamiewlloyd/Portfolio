@@ -263,6 +263,7 @@ h1 {
 	}
 	.top-link {
 		margin-left: 10px;
+		padding: 7px 5px;
 	}
 	.intro {
 		font-size: 18pt;
@@ -287,7 +288,7 @@ h1 {
 	.footer-text{
 		font-size: 14pt;
 		margin-bottom: 5px;
-		padding: 7px 0px;
+		padding: 7px 5px;
 	}
 	.social{
 		font-size: 30px;
@@ -305,7 +306,7 @@ h1 {
 	}
 	.fancy-undeline {
 		background-position-x: 0;
-		background-position-y: 77%;
+		background-position-y: 76%;
 	}
 }
 @media only screen and (max-width: 350px) {
