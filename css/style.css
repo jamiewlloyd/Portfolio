@@ -24,32 +24,11 @@ audio, video {
     outline: -webkit-focus-ring-color none 0px;
 }
 body {
-	font-family: quasimoda,sans-serif;
+	font-family: maxular,serif;
 	font-weight: 400;
 	font-style: normal;
-	cursor: url('../images/pointer.png'), auto;
 }
-#fluxpage {
-	cursor: url('../images/fluxpointer.png'), auto;
-}
-#macawpage {
-	cursor: url('../images/macawpointer.png'), auto;
-}
-#pacificpage {
-	cursor: url('../images/pacificpointer.png'), auto;
-}
-#karenspage {
-	cursor: url('../images/karenspointer.png'), auto;
-}
-#hartleypage {
-	cursor: url('../images/hartleypointer.png'), auto;
-}
-#watchingpage {
-	cursor: url('../images/watchingpointer.png'), auto;
-}
-a {
-	cursor: url('../images/link.png'), auto;
-}
+
 #wrapper {
 	width: 100%;
 	margin: 0 auto;
@@ -69,7 +48,7 @@ a {
 	padding-top: 15px
 }
 .logo {
-	height: 86px;
+	height: 90px;
 	justify-self: start;
 	padding: 0 0 0 20px;
 }
@@ -96,31 +75,32 @@ a {
 	margin: 150px 0 120px 0;
 }
 h1 {
-	font-family: quasimoda,sans-serif;
-	font-weight: 700;
+	font-family: amboy-black, sans-serif;
+	font-weight: 400;
 	font-style: normal;
-	font-size: 40pt;
+	font-size: 25pt;
 	text-align: center;
 	max-width: 90%;
 }
 .fancy-undeline {
 	background-image: linear-gradient(90deg, #f21d46 0%, #f21d46 100%);
 	background-repeat: no-repeat;
-	background-size: 100% 0.3em;
+	background-size: 100% 0.25em;
 	background-position-x: 0;
-	background-position-y: 80%;
+	background-position-y: 100%;
 	transition: background-size 0.2s ease-in;
+	
 }
 @media (hover: hover) {
 	.fancy-undeline:hover {
-		background-size: 100% 88% !important;
+		background-size: 100% 100% !important;
 	}
   }
 #flexcontainer {
 	display:flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	margin: 10px 0 40px 0;
+	margin: 10px 0 2px 0;
 	max-width: 1500px;
 }
 .flex-item {
@@ -164,27 +144,27 @@ h1 {
 }
 #footer {
 	display: grid;
-	grid-template-columns: auto 1fr;
-	grid-template-rows: auto auto;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto;
 	align-items: center;
 	justify-items: center;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 }
 .footer-image {
 	grid-column: 1;
-	grid-row: 1/3;
-	height: 90px;
-	padding: 0 15px 0 0 ;
+	grid-row: 1;
+	height: 100px;
+	margin: 30px 0 0 0;
 }
 .footer-text{
-	grid-column: 2;
-	grid-row: 1;
+	grid-column: 1;
+	grid-row: 2;
 	font-family: amboy-black, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 18pt;
 	align-self: end;
-	margin-bottom: 10px;
+	margin: 15px 0 17px 0;
 	padding: 7px 5px;
 	text-decoration: none;
 	color: black;
@@ -193,11 +173,11 @@ h1 {
 	font-size: 40px;
 	color: black;
 	text-decoration: none;
-	padding: 0 15px;
+	padding: 0 10px;
 }
 .social-links{
-	grid-column: 2;
-	grid-row: 2;
+	grid-column: 1;
+	grid-row: 3;
 	align-self: start;
 }
 .project-h1 {
@@ -207,8 +187,8 @@ h1 {
 	padding: 30px 0 10px 0;
 }
 .project-desc {
-	font-family: quasimoda,sans-serif;
-	font-weight: 300;
+	font-family: maxular, serif;
+	font-weight: 200;
 	font-style: normal;
 	font-size: 20px;
 	max-width: 800px;
@@ -248,7 +228,19 @@ h1 {
 	margin: 20px;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
 }
-
+/* .fa-linkedin {
+	color:#0072b1;
+}
+.fa-instagram-square {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+}
+.fa-square-dribbble {
+	color: #ea4c89;
+} */
 @media only screen and (max-width: 600px) {
 	.logo {
 		height: 50px;
