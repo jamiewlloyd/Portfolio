@@ -52,6 +52,9 @@ body {
 	justify-self: start;
 	padding: 0 0 0 20px;
 }
+.logoimg {
+	height: 90px;
+}
 .link-group{
 	justify-self: end;
 	padding-right: 20px;
@@ -100,7 +103,7 @@ h1 {
 	display:flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	margin: 10px 0 2px 0;
+	margin: 10px 0 8px 0;
 	max-width: 1500px;
 }
 .flex-item {
@@ -148,7 +151,7 @@ h1 {
 	grid-template-rows: auto auto auto;
 	align-items: center;
 	justify-items: center;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 .footer-image {
 	grid-column: 1;
@@ -210,7 +213,7 @@ h1 {
 	width: 100%;
 }
 .project-space {
-	height: 70px;
+	height: 30px;
 }
 #instacontainer {
 	display:flex;
@@ -241,8 +244,12 @@ h1 {
 .fa-square-dribbble {
 	color: #ea4c89;
 } */
+
 @media only screen and (max-width: 600px) {
 	.logo {
+		height: 50px;
+	}
+	.logoimg {
 		height: 50px;
 	}
 	.link-group{
@@ -268,22 +275,23 @@ h1 {
 		display:flex;
 		justify-content: space-evenly;
 		flex-wrap: wrap;
-		margin: 0 0 20px 0;
+		margin: 0 0 0px 0;
 		max-width: 1500px;
 	}
 	#footer {
-		margin-bottom: 25px;
+		margin-bottom: 20px;
 	}
 	.footer-image {
-		height: 65px;
+		height: 80px;
 	}
 	.footer-text{
 		font-size: 14pt;
-		margin-bottom: 5px;
+		margin-bottom: 15px;
 		padding: 7px 5px;
 	}
 	.social{
-		font-size: 30px;
+		font-size: 38px;
+		padding: 0 9px;
 	}
 	.project-h1 {
 		padding: 30px 0 25px 0;
@@ -294,11 +302,17 @@ h1 {
 		margin-bottom: 40px;
 	}
 	.project-space {
-		height: 40px;
+		height: 10px;
 	}
 	.fancy-undeline {
 		background-position-x: 0;
-		background-position-y: 76%;
+		background-position-y: 100%;
+	}
+	.flex-item {
+		max-width: 400px;
+		max-height: 400px;
+		margin: 10px 20px;
+		transition: all 0.3s;
 	}
 }
 @media only screen and (max-width: 350px) {
@@ -306,6 +320,9 @@ h1 {
 		height: 50px;
 		justify-self: center;
 		padding: 0;
+	}
+	.logoimg {
+		height: 50px;
 	}
 	.nav {
 		grid-template-columns: auto;
@@ -329,21 +346,19 @@ h1 {
 		font-size: 25pt;
 	}
 	#footer {
-		margin-bottom: 25px;
+		margin-bottom: 15px;
 	}
 	.footer-image {
 		height: 60px;
-		padding: 0 10px 0 0 ;
+		margin: 20px 0 0 0;
 	}
 	.footer-text{
-		font-size: 12pt;
-		margin-bottom: 0px;
+		font-size: 16pt;
+		margin-bottom: 15px;
 		padding: 7px 0px;
 	}
-	#flexcontainer {
-		margin: 0 0 20px 0;
-	}
 	.social {
-		padding: 3px 12px 0px 12px;
+		font-size: 35px;
+		padding: 0 7px;
 	}
 }
