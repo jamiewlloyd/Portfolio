@@ -98,6 +98,11 @@ h1 {
 	.fancy-undeline:hover {
 		background-size: 100% 100% !important;
 	}
+	.flex-item:hover{
+		transform: translateX(-4px);
+		transform: translateY(-4px);
+		box-shadow: 3px 3px 20px rgba(0, 0, 0, .3);
+	}
   }
 #flexcontainer {
 	display:flex;
@@ -111,13 +116,6 @@ h1 {
 	max-height: 400px;
 	margin: 20px;
 	transition: all 0.3s;
-}
-@media (hover: hover) {
-	.flex-item:hover{
-		transform: translateX(-5px);
-		transform: translateY(-5px);
-		box-shadow: 3px 3px 20px rgba(0, 0, 0, .3);
-	}
 }
 .flex-item img{
 	width: 100%;
@@ -168,12 +166,12 @@ h1 {
 	font-size: 18pt;
 	align-self: end;
 	margin: 15px 0 17px 0;
-	padding: 7px 5px;
+	padding: 7px 7px;
 	text-decoration: none;
 	color: black;
 }
 .social{
-	font-size: 40px;
+	font-size: 50px;
 	color: black;
 	text-decoration: none;
 	padding: 0 10px;
@@ -215,6 +213,8 @@ h1 {
 .project-space {
 	height: 30px;
 }
+
+/* Instagram size projects */
 #instacontainer {
 	display:flex;
 	justify-content: space-evenly;
@@ -231,12 +231,15 @@ h1 {
 	margin: 20px;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
 }
+
+/* Social Icon Colors */
 .fa-linkedin {
 	color:#0072b1;
 }
 .fa-instagram-square {
 	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 	-webkit-background-clip: text;
+	background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
   	-moz-text-fill-color: transparent;
@@ -247,18 +250,20 @@ h1 {
 .fa-square-whatsapp {
 	color: #25D366;
 }
+
+/* Media Queries */
 @media only screen and (max-width: 600px) {
 	.logo {
-		height: 50px;
+		height: 70px;
 	}
 	.logoimg {
-		height: 50px;
+		height: 70px;
 	}
 	.link-group{
 		padding-right: 20px;
 	}
 	.link {
-		font-size: 14pt;
+		font-size: 18pt;
 		text-decoration: none;
 		color: black;
 	}
@@ -271,7 +276,7 @@ h1 {
 		margin: 100px 0 70px 0;
 	}
 	h1 {
-		font-size: 30pt;
+		font-size: 28pt;
 	}
 	#flexcontainer {
 		display:flex;
@@ -287,13 +292,12 @@ h1 {
 		height: 80px;
 	}
 	.footer-text{
-		font-size: 14pt;
+		font-size: 18pt;
 		margin-bottom: 15px;
 		padding: 7px 5px;
 	}
 	.social{
-		font-size: 38px;
-		padding: 0 9px;
+		font-size: 50px;
 	}
 	.project-h1 {
 		padding: 30px 0 25px 0;
@@ -319,12 +323,12 @@ h1 {
 }
 @media only screen and (max-width: 350px) {
 	.logo {
-		height: 50px;
+		height: 60px;
 		justify-self: center;
 		padding: 0;
 	}
 	.logoimg {
-		height: 50px;
+		height: 60px;
 	}
 	.nav {
 		grid-template-columns: auto;
@@ -345,7 +349,7 @@ h1 {
 		margin: 70px 0 40px 0;
 	}
 	h1 {
-		font-size: 25pt;
+		font-size: 20pt;
 	}
 	#footer {
 		margin-bottom: 15px;
@@ -360,7 +364,7 @@ h1 {
 		padding: 7px 0px;
 	}
 	.social {
-		font-size: 35px;
+		font-size: 40px;
 		padding: 0 7px;
 	}
 }
