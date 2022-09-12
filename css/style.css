@@ -59,6 +59,9 @@ body {
 	justify-self: end;
 	padding-right: 20px;
 }
+a {
+	cursor: pointer;
+}
 .link {
 	font-family: amboy-black, sans-serif;
 	font-weight: 400;
@@ -253,15 +256,21 @@ h1 {
 .fa-square-whatsapp {
 	color: #25D366;
 }
+#about {
+	height: 100vh;
+}
+#about #wrapper {
+	height: 100vh;
+	grid-template-rows: 120px auto;
+}
 .notready {
 	width: 40%;
-    position: absolute;
-    bottom: 0px;
+	align-self: end;
 }
 .garfield {
 	height: 100%;
 	width: 100%;
-	margin: -10px;
+	margin: -8px;
 }
 
 /* Media Queries */
@@ -332,6 +341,10 @@ h1 {
 		max-height: 400px;
 		margin: 10px 20px;
 		transition: all 0.3s;
+	}
+	#about #wrapper {
+		height: 100vh;
+		grid-template-rows: 85px auto;
 	}
 	.notready {
 		width: 60%;
