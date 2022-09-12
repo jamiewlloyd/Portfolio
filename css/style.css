@@ -253,6 +253,16 @@ h1 {
 .fa-square-whatsapp {
 	color: #25D366;
 }
+.notready {
+	width: 40%;
+    position: absolute;
+    bottom: 0px;
+}
+.garfield {
+	height: 100%;
+	width: 100%;
+	margin: -10px;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
@@ -322,6 +332,12 @@ h1 {
 		max-height: 400px;
 		margin: 10px 20px;
 		transition: all 0.3s;
+	}
+	.notready {
+		width: 60%;
+	}
+	.garfield {
+		margin: -7px;
 	}
 }
 @media only screen and (max-width: 350px) {
