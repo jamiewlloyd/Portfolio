@@ -347,7 +347,7 @@ h1 {
 		grid-template-rows: 85px auto;
 	}
 	.notready {
-		width: 60%;
+		width: 50%;
 	}
 	.garfield {
 		margin: -7px;
