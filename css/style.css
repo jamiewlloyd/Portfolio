@@ -261,7 +261,7 @@ h1 {
 }
 #about #wrapper {
 	height: 100vh;
-	grid-template-rows: 120px auto;
+	grid-template-rows: 105px auto;
 }
 .notready {
 	width: 30%;
