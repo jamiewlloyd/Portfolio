@@ -152,7 +152,7 @@ h1 {
 	grid-template-rows: auto auto auto;
 	align-items: center;
 	justify-items: center;
-	margin-bottom: 25px;
+	margin: 20px 0 40px 0;
 }
 .footer-text{
 	grid-column: 1;
@@ -299,7 +299,7 @@ h1 {
 		max-width: 1500px;
 	}
 	#footer {
-		margin-bottom: 20px;
+		margin: 0 0 20px 0;
 	}
 	.footer-text{
 		font-size: 18pt;
@@ -369,7 +369,7 @@ h1 {
 		font-size: 20pt;
 	}
 	#footer {
-		margin-bottom: 15px;
+		margin: 0 0 15px 0;
 	}
 	.footer-text{
 		font-size: 16pt;
