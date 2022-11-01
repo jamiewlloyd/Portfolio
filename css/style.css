@@ -210,6 +210,28 @@ h1 {
 .project-space {
 	height: 10px;
 }
+.aboutgrid {
+	width: 100%;
+	max-width: 1000px;
+	margin: 50px 0 40px 0;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+	align-items: center;
+	justify-items: center;
+}
+.profilepic {
+	width: 50vw;
+	max-width: 300px;
+	margin: 20px 20px 0 20px;
+}
+.about {
+	width: 90%;
+	font-size: 16pt;
+	text-align: left;
+	padding: 0 20px 0 0;
+	align-self: end;
+}
 
 /* Instagram size projects */
 #instacontainer {
@@ -319,12 +341,20 @@ h1 {
 		height: 100vh;
 		grid-template-rows: 85px auto;
 	}
-	.notready {
-		width: 60%;
+	.aboutgrid {
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
 	}
-	.garfield {
-		margin: -7px;
+	.about {
+		padding: 20px;
+		font-size: 15pt;
 	}
+	.profilepic {
+		width: 70vw;
+		max-width: 300px;
+		margin: 20px;
+	}
+
 }
 @media only screen and (max-width: 350px) {
 	.logo {
