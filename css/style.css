@@ -247,24 +247,6 @@ h1 {
 .fa-square-whatsapp {
 	color: #25D366;
 }
-#about {
-	height: 100vh;
-}
-#about #wrapper {
-	height: 100vh;
-	grid-template-rows: 105px auto;
-}
-.notready {
-	width: 30%;
-	align-self: end;
-}
-.garfield {
-	height: 100%;
-	width: 100%;
-	margin: -8px;
-}
-
-#more {display: none;}
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
