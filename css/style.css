@@ -221,7 +221,6 @@ h1 {
 	justify-items: center;
 }
 .profilepic {
-	width: 50vw;
 	max-width: 300px;
 	margin: 20px 20px 0 20px;
 }
@@ -347,10 +346,10 @@ h1 {
 	}
 	.about {
 		padding: 20px;
-		font-size: 15pt;
+		font-size: 16pt;
 	}
 	.profilepic {
-		width: 70vw;
+		width: 70%;
 		max-width: 300px;
 		margin: 20px;
 	}
