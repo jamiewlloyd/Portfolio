@@ -45,7 +45,7 @@ body {
 	grid-template-columns: auto auto;
 	align-items: center;
 	justify-items: center;
-	padding-top: 15px
+	padding-top: 25px
 }
 .logo {
 	height: 90px;
@@ -117,7 +117,7 @@ h1 {
 .flex-item {
 	max-width: 400px;
 	max-height: 400px;
-	margin: 20px;
+	margin: 10px;
 	transition: all 0.3s;
 }
 .flex-item img{
@@ -179,7 +179,7 @@ h1 {
 	align-self: start;
 }
 .project-h1 {
-	padding: 30px 0 30px 0;
+	padding: 50px 0 50px 0;
 }
 #home .project-h1 {
 	padding: 30px 0 10px 0;
@@ -192,7 +192,7 @@ h1 {
 	max-width: 800px;
 	width: 90%;
 	line-height: 25px;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
 .bold {
 	font-weight: 600;
@@ -269,29 +269,29 @@ h1 {
 /* Media Queries */
 @media only screen and (max-width: 600px) {
 	.logo {
-		height: 70px;
+		height: 60px;
 	}
 	.logoimg {
-		height: 70px;
+		height: 60px;
 	}
 	.link-group{
 		padding-right: 20px;
 	}
 	.link {
-		font-size: 18pt;
+		font-size: 17pt;
 		text-decoration: none;
 		color: black;
 	}
 	.top-link {
 		margin-left: 10px;
-		padding: 7px 8px;
+		padding: 6px 5px;
 	}
 	.intro {
 		font-size: 18pt;
 		margin: 100px 0 70px 0;
 	}
 	h1 {
-		font-size: 28pt;
+		font-size: 25pt;
 	}
 	#flexcontainer {
 		display:flex;
@@ -303,13 +303,17 @@ h1 {
 	#footer {
 		margin: 0 0 20px 0;
 	}
+	.social {
+		font-size: 40px;
+		padding: 0 5px;
+	}
 	.footer-text{
-		font-size: 18pt;
+		font-size: 16pt;
 		margin-bottom: 15px;
-		padding: 7px 8px;
+		padding: 7px 6px;
 	}
 	.project-h1 {
-		padding: 30px 0 25px 0;
+		padding: 45px 0 30px 0;
 	}
 	.project-desc {
 		font-size: 18px;
