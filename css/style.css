@@ -96,7 +96,7 @@ a {
 .intro {
 	width: 80%;
 	max-width: 700px;
-	font-size: 23pt;
+	font-size: 20pt;
 	text-align: center;
 	margin: 150px 0 100px 0;
 }
@@ -330,7 +330,7 @@ h1 {
 		margin: 100px 0 70px 0;
 	}
 	h1 {
-		font-size: 25pt;
+		font-size: 22pt;
 	}
 	#flexcontainer {
 		display:flex;
@@ -345,10 +345,10 @@ h1 {
 		padding: 40px 0 40px 0;
 	}
 	.footer-title {
-		padding: 50px 0 30px 0;
+		padding: 30px 0 30px 0;
 	}
 	.footer-h1 {
-		width: 135px;
+		width: 120px;
 		padding: 0 7px 0 0;
 	}
 	.footer-img {
