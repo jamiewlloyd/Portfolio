@@ -78,7 +78,7 @@ a {
 	max-width: 700px;
 	font-size: 23pt;
 	text-align: center;
-	margin: 150px 0 120px 0;
+	margin: 150px 0 100px 0;
 }
 h1 {
 	font-family: amboy-black, sans-serif;
@@ -109,7 +109,7 @@ h1 {
   }
 #flexcontainer {
 	display:flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin: 10px 0 0 0;
 	max-width: 1500px;
@@ -117,7 +117,7 @@ h1 {
 .flex-item {
 	max-width: 400px;
 	max-height: 400px;
-	margin: 10px;
+	margin: 12px;
 	transition: all 0.3s;
 }
 .flex-item img{
@@ -152,37 +152,44 @@ h1 {
 	grid-template-rows: auto auto auto;
 	align-items: center;
 	justify-items: center;
-	margin: 20px 0 40px 0;
-}
-.footer-text{
-	grid-column: 1;
-	grid-row: 2;
-	font-family: amboy-black, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 18pt;
-	align-self: end;
-	margin: 15px 0 17px 0;
-	padding: 7px 8px;
-	text-decoration: none;
-	color: black;
 }
 .social{
-	font-size: 42px;
+	font-size: 43px;
 	color: black;
 	text-decoration: none;
-	padding: 0 7px;
+	padding: 8px 10px;
+	margin: 0 2px;
 }
-.social-links{
+#social-links{
 	grid-column: 1;
 	grid-row: 3;
 	align-self: start;
+	margin-bottom: 30px;
+}
+.footer-title {
+	width: 100%;
+	padding: 50px 0 30px 0;
+	display: grid; 
+	grid-template-columns: 1fr auto auto 1fr;
+	align-items: center;
+}
+.footer-img {
+	height: 40px;
+	justify-self: start;
+	grid-column: 3;
 }
 .project-h1 {
 	padding: 50px 0 50px 0;
 }
-#home .project-h1 {
-	padding: 30px 0 10px 0;
+.flex-h1 {
+	padding: 50px 0 50px 0;
+}
+.footer-h1 {
+	padding: 0 5px 0 0;
+	margin: 0;
+	width: 140px;
+	justify-self: end;
+	grid-column: 2;
 }
 .project-desc {
 	font-family: maxular, serif;
@@ -251,7 +258,7 @@ h1 {
 }
 
 /* Social Icon Colors */
-.fa-linkedin {
+/* .fa-linkedin {
 	color:#0072b1;
 }
 .fa-instagram-square {
@@ -267,6 +274,10 @@ h1 {
 }
 .fa-square-whatsapp {
 	color: #25D366;
+} */
+#social-links .fancy-undeline {
+	background-size: 100% 0.15em;
+	transition: background-size 0.2s ease-in;
 }
 
 /* Media Queries */
@@ -298,25 +309,25 @@ h1 {
 	}
 	#flexcontainer {
 		display:flex;
-		justify-content: space-evenly;
 		flex-wrap: wrap;
 		margin: 0 0 0px 0;
 		max-width: 1500px;
 	}
-	#footer {
-		margin: 0 0 20px 0;
-	}
-	.social {
-		font-size: 40px;
-		padding: 0 5px;
-	}
-	.footer-text{
-		font-size: 16pt;
-		margin-bottom: 15px;
-		padding: 7px 6px;
-	}
 	.project-h1 {
 		padding: 45px 0 30px 0;
+	}
+	.flex-h1 {
+		padding: 40px 0 40px 0;
+	}
+	.footer-title {
+		padding: 50px 0 30px 0;
+	}
+	.footer-h1 {
+		width: 135px;
+		padding: 0 7px 0 0;
+	}
+	.footer-img {
+		height: 36px;
 	}
 	.project-desc {
 		font-size: 18px;
@@ -335,10 +346,6 @@ h1 {
 		max-height: 400px;
 		margin: 10px 20px;
 		transition: all 0.3s;
-	}
-	#about #wrapper {
-		height: 100vh;
-		grid-template-rows: 85px auto;
 	}
 	.aboutgrid {
 		grid-template-columns: auto;
@@ -382,13 +389,11 @@ h1 {
 		text-align: center;
 		margin: 70px 0 40px 0;
 	}
-	h1 {
-		font-size: 20pt;
-	}
-	#footer {
-		margin: 0 0 15px 0;
-	}
-	.footer-text{
-		font-size: 16pt;
+	.social{
+		font-size: 40px;
+		color: black;
+		text-decoration: none;
+		padding: 7px 9px;
+		margin: 0 2px;
 	}
 }
