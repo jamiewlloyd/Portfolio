@@ -389,6 +389,9 @@ h1 {
 		padding: 9px 11px;
 		margin: 0 -3px;
 	}
+	#social-links {
+		margin-bottom: 10px;
+	}
 }
 @media only screen and (max-width: 350px) {
 	.logo {
