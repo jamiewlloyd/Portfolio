@@ -2,32 +2,16 @@
 
 /* CSS Document */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,a,
-abbr, acronym, address, big, cite, code,del, dfn,
-em, img, ins, kbd, q, s, samp,small, strike,
-strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd,
-ol, ul, li,fieldset, form, label, legend,table,
-caption, tbody, tfoot, thead, tr, th, td,article,
-aside, canvas, details, embed,figure, figcaption,
-footer, header, hgroup, menu, nav,
-output, ruby, section, summary,time, mark,
-audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
 :focus-visible {
-    outline: -webkit-focus-ring-color none 0px;
+	outline: -webkit-focus-ring-color none 0px;
 }
+
 body {
-	font-family: maxular,serif;
+	font-family: maxular, serif;
 	font-weight: 400;
 	font-style: normal;
 }
+
 #wrapper {
 	width: 100%;
 	margin: 0 auto;
@@ -38,22 +22,23 @@ body {
 }
 
 /* floating button */
-.float{
-	position:fixed;
-	width:55px;
-	height:55px;
-	bottom:20px;
-	left:20px;
-	background-color:#f21d46;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
+.float {
+	position: fixed;
+	width: 55px;
+	height: 55px;
+	bottom: 20px;
+	left: 20px;
+	background-color: #f21d46;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
 	font-size: 30px;
-	z-index:50;
+	z-index: 50;
 }
-.my-float{
-	margin-top:13px;
+
+.my-float {
+	margin-top: 13px;
 }
 
 /* Navigation */
@@ -67,21 +52,26 @@ body {
 	justify-items: center;
 	padding-top: 25px
 }
+
 .logo {
 	height: 90px;
 	justify-self: start;
 	padding: 0 0 0 20px;
 }
+
 .logoimg {
 	height: 90px;
 }
-.link-group{
+
+.link-group {
 	justify-self: end;
 	padding-right: 20px;
 }
+
 a {
 	cursor: pointer;
 }
+
 .link {
 	font-family: amboy-black, sans-serif;
 	font-weight: 400;
@@ -89,10 +79,12 @@ a {
 	text-decoration: none;
 	color: black;
 }
+
 .top-link {
 	margin-left: 40px;
 	padding: 7px 8px;
 }
+
 .intro {
 	width: 80%;
 	max-width: 700px;
@@ -100,6 +92,7 @@ a {
 	text-align: center;
 	margin: 150px 0 100px 0;
 }
+
 h1 {
 	font-family: amboy-black, sans-serif;
 	font-weight: 400;
@@ -108,6 +101,7 @@ h1 {
 	text-align: center;
 	max-width: 90%;
 }
+
 .fancy-underline {
 	background-image: linear-gradient(90deg, #f21d46 0%, #f21d46 100%);
 	background-repeat: no-repeat;
@@ -115,68 +109,85 @@ h1 {
 	background-position-x: 0;
 	background-position-y: 100%;
 	transition: background-size 0.2s ease-in;
-	
+
 }
+
 @media (hover: hover) {
 	.fancy-underline:hover {
 		background-size: 100% 100% !important;
 	}
-	.flex-item:hover{
+
+	.flex-item:hover {
 		transform: translateX(-4px);
 		transform: translateY(-4px);
 		box-shadow: 3px 3px 20px rgba(0, 0, 0, .3);
 	}
-  }
+}
+
 #flexcontainer {
-	display:flex;
+	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin: 10px 0 0 0;
 	max-width: 1500px;
 }
+
 .flex-item {
 	max-width: 400px;
 	max-height: 400px;
 	margin: 12px;
 	transition: all 0.3s;
 }
-.flex-item img{
+
+.flex-item img {
 	width: 100%;
 	height: 100%;
 }
+
 #fluxpage .fancy-underline {
 	background-image: linear-gradient(90deg, #41b3c8, #41f9c0 100%);
 }
+
 #macawpage .fancy-underline {
 	background-image: linear-gradient(90deg, #2584BB, #2584BB 100%);
 }
+
 #pacificpage .fancy-underline {
 	background-image: linear-gradient(90deg, #d9c8e8, #d9c8e8 100%);
 }
+
 #karenspage .fancy-underline {
 	background-image: linear-gradient(90deg, #F6C6D3, #F6C6D3 100%);
 }
+
 #watchingpage .fancy-underline {
 	background-image: linear-gradient(90deg, #7ac37f, #7ac37f 100%);
 }
+
 #hartleypage .fancy-underline {
 	background-image: linear-gradient(90deg, #feae63, #feae63 100%);
 }
+
 #fluxpage .float {
 	background-image: linear-gradient(90deg, #41b3c8, #41f9c0 100%);
 }
+
 #macawpage .float {
 	background-image: linear-gradient(90deg, #2584BB, #2584BB 100%);
 }
+
 #pacificpage .float {
 	background-image: linear-gradient(90deg, #d9c8e8, #d9c8e8 100%);
 }
+
 #karenspage .float {
 	background-image: linear-gradient(90deg, #F6C6D3, #F6C6D3 100%);
 }
+
 #watchingpage .float {
 	background-image: linear-gradient(90deg, #7ac37f, #7ac37f 100%);
 }
+
 #hartleypage .float {
 	background-image: linear-gradient(90deg, #feae63, #feae63 100%);
 }
@@ -184,6 +195,7 @@ h1 {
 .slight-shadow {
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
 }
+
 #footer {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -191,37 +203,44 @@ h1 {
 	align-items: center;
 	justify-items: center;
 }
-.social{
+
+.social {
 	font-size: 43px;
 	color: black;
 	text-decoration: none;
 	padding: 9px 10px;
 	margin: 0 2px;
 }
-#social-links{
+
+#social-links {
 	grid-column: 1;
 	grid-row: 3;
 	align-self: start;
 	margin-bottom: 20px;
 }
+
 .footer-title {
 	width: 100%;
 	padding: 50px 0 10px 0;
-	display: grid; 
+	display: grid;
 	grid-template-columns: 1fr auto auto 1fr;
 	align-items: center;
 }
+
 .footer-img {
 	height: 40px;
 	justify-self: start;
 	grid-column: 3;
 }
+
 .project-h1 {
 	padding: 50px 0 30px 0;
 }
+
 .flex-h1 {
 	padding: 50px 0 15px 0;
 }
+
 .footer-h1 {
 	padding: 0 5px 0 0;
 	margin: 0;
@@ -229,6 +248,7 @@ h1 {
 	justify-self: end;
 	grid-column: 2;
 }
+
 .project-desc {
 	font-family: maxular, serif;
 	font-weight: 200;
@@ -239,9 +259,11 @@ h1 {
 	line-height: 25px;
 	margin-bottom: 50px;
 }
+
 .bold {
 	font-weight: 600;
 }
+
 #project-preview {
 	width: 90%;
 	max-width: 950px;
@@ -249,12 +271,15 @@ h1 {
 	display: grid;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
 }
+
 .project-image {
 	width: 100%;
 }
+
 .project-space {
 	height: 10px;
 }
+
 .aboutgrid {
 	width: 100%;
 	max-width: 1000px;
@@ -265,10 +290,12 @@ h1 {
 	align-items: center;
 	justify-items: center;
 }
+
 .profilepic {
 	max-width: 300px;
 	margin: 20px 20px 0 20px;
 }
+
 .about {
 	width: 90%;
 	font-size: 16pt;
@@ -279,13 +306,14 @@ h1 {
 
 /* Instagram size projects */
 #instacontainer {
-	display:flex;
+	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	width: 90%;
 	max-width: 950px;
 	margin: 20px 0 -20px 0;
 }
+
 .insta-item {
 	width: 100%;
 	height: 100%;
@@ -294,6 +322,7 @@ h1 {
 	margin: 20px;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
 }
+
 #social-links .fancy-underline {
 	background-size: 100% 0.15em;
 	transition: background-size 0.2s ease-in;
@@ -301,126 +330,156 @@ h1 {
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
-	.float{
+	.float {
 		display: none;
 	}
-	.my-float{
+
+	.my-float {
 		display: none;
 	}
+
 	.logo {
 		height: 60px;
 	}
+
 	.logoimg {
 		height: 60px;
 	}
-	.link-group{
+
+	.link-group {
 		padding-right: 20px;
 	}
+
 	.link {
 		font-size: 17pt;
 		text-decoration: none;
 		color: black;
 	}
+
 	.top-link {
 		margin-left: 10px;
 		padding: 6px 5px;
 	}
+
 	.intro {
 		font-size: 18pt;
 		margin: 100px 0 70px 0;
 	}
+
 	h1 {
 		font-size: 22pt;
 	}
+
 	#flexcontainer {
-		display:flex;
+		display: flex;
 		flex-wrap: wrap;
 		margin: 0 0 0px 0;
 		max-width: 1500px;
 	}
+
 	.project-h1 {
 		padding: 45px 0 20px 0;
 	}
+
 	.flex-h1 {
 		padding: 40px 0 10px 0;
 	}
+
 	.footer-title {
 		padding: 30px 0 10px 0;
 	}
+
 	.footer-h1 {
 		width: 120px;
 		padding: 0 7px 0 0;
 	}
+
 	.footer-img {
 		height: 36px;
 	}
+
 	.project-desc {
 		font-size: 18px;
 		line-height: 22px;
 		margin-bottom: 40px;
 	}
+
 	.project-space {
 		height: 10px;
 	}
+
 	.fancy-underline {
 		background-position-x: 0;
 		background-position-y: 100%;
 	}
+
 	.flex-item {
 		max-width: 400px;
 		max-height: 400px;
 		margin: 10px 20px;
 		transition: all 0.3s;
 	}
+
 	.aboutgrid {
 		grid-template-columns: auto;
 		grid-template-rows: auto auto;
 	}
+
 	.about {
 		padding: 20px;
 		font-size: 16pt;
 	}
+
 	.profilepic {
 		width: 70%;
 		max-width: 300px;
 		margin: 20px;
 	}
-	.social{
+
+	.social {
 		padding: 9px 11px;
 		margin: 0 -3px;
 	}
+
 	#social-links {
 		margin-bottom: 10px;
 	}
 }
+
 @media only screen and (max-width: 350px) {
 	.logo {
 		height: 60px;
 		justify-self: center;
 		padding: 0;
 	}
+
 	.logoimg {
 		height: 60px;
 	}
+
 	.nav {
 		grid-template-columns: auto;
 		grid-template-rows: auto auto;
 	}
-	.link-group{
+
+	.link-group {
 		justify-self: center;
 		padding-top: 20px;
 		padding-right: 0px;
 	}
+
 	.top-link {
 		margin-left: 0px;
 		margin: 10px
 	}
+
 	.intro {
 		font-size: 15pt;
 		text-align: center;
 		margin: 70px 0 40px 0;
 	}
-	.social{
+
+	.social {
 		font-size: 40px;
 		color: black;
 		text-decoration: none;
