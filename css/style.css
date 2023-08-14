@@ -11,7 +11,7 @@
 }
 
 body {
-	font-family: maxular, serif;
+	font-family: 'Inconsolata', monospace;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -254,8 +254,8 @@ h1 {
 }
 
 .project-desc {
-	font-family: maxular, serif;
-	font-weight: 200;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 300;
 	font-style: normal;
 	font-size: 20px;
 	max-width: 800px;
