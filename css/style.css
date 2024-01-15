@@ -9,6 +9,7 @@
 	--karens-color: #F6C6D3;
 	--watching-color: #7ac37f;
 	--hartley-color: #feae63;
+	--obscure-color: #0095ff;
 }
 
 :focus-visible {
@@ -118,7 +119,7 @@ h1 {
 	height: 100%;
 }
 
-/* float colors */
+/* float and link colors */
 #fluxpage .float {
 	background-image: var(--flux-color);
 }
@@ -141,6 +142,15 @@ h1 {
 
 #hartleypage .float {
 	background-color: var(--hartley-color);
+}
+
+#obscurepage .float {
+	background-color: var(--obscure-color);
+}
+
+#obscurepage .project-desc a {
+	color: var(--obscure-color);
+	text-decoration: none;
 }
 
 /* header colors */
@@ -166,6 +176,10 @@ h1 {
 
 #hartleypage .page-header {
 	background-color: var(--hartley-color);
+}
+
+#obscurepage .page-header {
+	background-color: var(--obscure-color);
 }
 
 .slight-shadow {
