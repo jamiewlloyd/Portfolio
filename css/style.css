@@ -216,16 +216,12 @@ h1 {
 
 .footer-title {
 	width: 100%;
-	padding: 40px 0 20px 0;
-	display: grid;
-	grid-template-columns: 1fr auto 1fr;
-	align-items: center;
-}
-
-.footer-img {
-	height: 80px;
-	justify-self: start;
-	grid-column: 2;
+	max-width: 700px;
+	font-size: 20pt;
+	line-height: 32px;
+	text-align: center;
+	margin: 40px 0 25px 0;
+	letter-spacing: -0.5px;
 }
 
 .project-h1 {
@@ -334,14 +330,6 @@ h1 {
 		padding: 40px 0 10px 0;
 	}
 
-	.footer-title {
-		padding: 30px 0 10px 0;
-	}
-
-	.footer-img {
-		height: 36px;
-	}
-
 	.project-desc {
 		font-size: 18px;
 		line-height: 20px;
@@ -373,14 +361,6 @@ h1 {
 
 	#social-links {
 		margin-bottom: 10px;
-	}
-
-	.footer-title {
-		padding: 30px 0 30px 0;
-	}
-
-	.footer-img {
-		height: 70px;
 	}
 
 	.hidden-m {
@@ -416,9 +396,5 @@ h1 {
 
 	.project-space {
 		height: 10px;
-	}
-
-	.footer-img {
-		height: 50px;
 	}
 }
