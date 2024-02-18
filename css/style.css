@@ -34,21 +34,21 @@ body {
 /* floating button */
 .float {
 	position: fixed;
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
 	bottom: 20px;
 	left: 20px;
 	background-color: var(--main-color);
 	color: white;
-	border-radius: 7px;
+	border-radius: 50%;
 	text-align: center;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
-	font-size: 30px;
+	font-size: 28px;
 	z-index: 50;
 }
 
 .my-float {
-	margin-top: 10px;
+	margin-top: 16px;
 }
 
 /* Navigation */
@@ -80,7 +80,6 @@ a {
 	line-height: 32px;
 	text-align: center;
 	margin: 110px 0 80px 0;
-	letter-spacing: -0.5px;
 }
 
 .hidden-l {
@@ -228,7 +227,6 @@ h1 {
 	line-height: 32px;
 	text-align: center;
 	margin: 50px 0 25px 0;
-	letter-spacing: -0.5px;
 }
 
 .project-h1 {
@@ -360,14 +358,12 @@ h1 {
 		margin: 20px;
 	}
 
-	.social {
-		font-size: 55px;
-		padding: 0px 5px;
-		text-decoration: none;
+	.footer-title {
+		margin: 30px 0 25px 0;
 	}
 
 	#social-links {
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 	}
 
 	.hidden-m {
@@ -387,12 +383,6 @@ h1 {
 
 	h1 {
 		font-size: 18pt;
-	}
-
-	.social {
-		font-size: 40px;
-		padding: 0 3px;
-		text-decoration: none;
 	}
 
 	.project-desc {
