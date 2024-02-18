@@ -201,9 +201,16 @@ h1 {
 }
 
 .social {
-	font-size: 50px;
-	color: black;
+	width: 60px;
+	height: 60px;
 	padding: 0px 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.icon {
+	width: 60px;
+	height: 60px;
 }
 
 #social-links {
