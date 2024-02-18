@@ -79,8 +79,14 @@ a {
 	font-size: 20pt;
 	line-height: 32px;
 	text-align: center;
-	margin: 150px 0 100px 0;
+	margin: 110px 0 80px 0;
+	letter-spacing: -0.5px;
 }
+
+.hidden-l {
+	display: none !important;
+}
+
 
 h1 {
 	font-family: 'Magnum', sans-serif;
@@ -291,11 +297,11 @@ h1 {
 	}
 
 	.logoimg {
-		height: 40px;
+		height: 50px;
 	}
 
 	.logo {
-		height: 40px;
+		height: 50px;
 		justify-self: center;
 		padding: 0;
 	}
@@ -306,9 +312,7 @@ h1 {
 	}
 
 	.intro {
-		font-size: 16pt;
-		line-height: 24px;
-		margin: 80px 0 80px 0;
+		margin: 60px 0 50px 0;
 	}
 
 	h1 {
@@ -378,13 +382,19 @@ h1 {
 	.footer-img {
 		height: 70px;
 	}
+
+	.hidden-m {
+		display: none !important;
+	}
+
+	.hidden-l {
+		display: inline !important;
+	}
 }
 
 @media only screen and (max-width: 350px) {
 
 	.intro {
-		font-size: 13pt;
-		line-height: 19px;
 		margin: 70px 0 30px 0;
 	}
 
