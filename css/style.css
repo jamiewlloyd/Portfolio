@@ -153,7 +153,7 @@ h1 {
 	background-color: var(--obscure-color);
 }
 
-#obscurepage a {
+#obscurepage .desc-link {
 	color: var(--obscure-color);
 	text-decoration: none;
 }
