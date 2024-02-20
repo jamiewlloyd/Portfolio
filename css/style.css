@@ -153,7 +153,7 @@ h1 {
 	background-color: var(--obscure-color);
 }
 
-#obscurepage .project-desc a {
+#obscurepage a {
 	color: var(--obscure-color);
 	text-decoration: none;
 }
@@ -233,6 +233,10 @@ h1 {
 	padding: 80px 0 40px 0;
 }
 
+.project-h2 {
+	padding: 10px 0 20px 0;
+}
+
 .flex-h1 {
 	padding: 50px 0 15px 0;
 }
@@ -242,10 +246,25 @@ h1 {
 	font-weight: 300;
 	font-style: normal;
 	font-size: 20px;
-	max-width: 800px;
+	max-width: 950px;
 	width: 90%;
 	line-height: 22px;
 	margin-bottom: 80px;
+}
+
+.obscure-desc {
+	margin-bottom: 40px !important;
+}
+
+.solo-description {
+	font-family: 'Inconsolata', monospace;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+	max-width: 950px;
+	width: 90%;
+	line-height: 22px;
+	margin-bottom: 30px;
 }
 
 .bold {
@@ -266,6 +285,10 @@ h1 {
 
 .project-space {
 	height: 10px;
+}
+
+.project-space-l {
+	height: 40px;
 }
 
 /* Instagram size projects */
