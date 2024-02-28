@@ -201,7 +201,9 @@ h1 {
 
 .social {
 	width: 60px;
+	min-width: 50px;
 	height: 60px;
+	min-height: 50px;
 	padding: 0px 10px;
 	text-decoration: none;
 	cursor: pointer;
