@@ -10,6 +10,7 @@
 	--watching-color: #7ac37f;
 	--hartley-color: #feae63;
 	--obscure-color: #0095ff;
+	--logo-color: #FF3B83;
 }
 
 :focus-visible {
@@ -153,6 +154,10 @@ h1 {
 	background-color: var(--obscure-color);
 }
 
+#logopage .float {
+	background-color: black;
+}
+
 #obscurepage .desc-link {
 	color: var(--obscure-color);
 	text-decoration: none;
@@ -185,6 +190,10 @@ h1 {
 
 #obscurepage .page-header {
 	background-color: var(--obscure-color);
+}
+
+#logopage .page-header {
+	background-color: var(--logo-color);
 }
 
 .slight-shadow {
