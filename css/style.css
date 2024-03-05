@@ -125,6 +125,14 @@ h1 {
 	height: 100%;
 }
 
+.flex-item video {
+	width: 400px;
+	height: 400px;
+	-webkit-mask-image: -webkit-radial-gradient(white, black);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+}
+
 /* float and link colors */
 #fluxpage .float {
 	background-image: var(--flux-color);
@@ -380,8 +388,6 @@ h1 {
 	}
 
 	.flex-item {
-		max-width: 400px;
-		max-height: 400px;
 		margin: 10px 20px;
 		transition: all 0.3s;
 	}
