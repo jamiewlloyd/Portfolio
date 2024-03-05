@@ -388,6 +388,8 @@ h1 {
 	}
 
 	.flex-item {
+		max-width: 400px;
+		max-height: 400px;
 		margin: 10px 20px;
 		transition: all 0.3s;
 	}
