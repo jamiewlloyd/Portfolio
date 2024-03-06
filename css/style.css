@@ -125,13 +125,13 @@ h1 {
 	height: 100%;
 }
 
-.flex-item video {
+/* .flex-item video {
 	width: 100%;
 	height: 100%;
 	-webkit-mask-image: -webkit-radial-gradient(white, black);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
-}
+} */
 
 /* float and link colors */
 #fluxpage .float {
