@@ -3,14 +3,13 @@
 /* CSS Document */
 :root {
 	--main-color: #FF3B83;
-	--flux-color: linear-gradient(90deg, #41b3c8, #41f9c0 100%);
+	--flux-color: #41b3c8;
 	--macaw-color: #2584BB;
 	--pacific-color: #d9c8e8;
 	--karens-color: #F6C6D3;
 	--watching-color: #7ac37f;
 	--hartley-color: #feae63;
 	--obscure-color: #0095ff;
-	--logo-color: #FF3B83;
 }
 
 :focus-visible {
@@ -135,7 +134,7 @@ h1 {
 
 /* float and link colors */
 #fluxpage .float {
-	background-image: var(--flux-color);
+	background-color: var(--flux-color);
 }
 
 #macawpage .float {
@@ -163,7 +162,11 @@ h1 {
 }
 
 #logopage .float {
-	background-color: black;
+	background-color: var(--main-color);
+}
+
+#gradientspage .float {
+	background-color: var(--main-color);
 }
 
 #obscurepage .desc-link {
@@ -173,7 +176,7 @@ h1 {
 
 /* header colors */
 #fluxpage .page-header {
-	background-image: var(--flux-color);
+	background-color: var(--flux-color);
 }
 
 #macawpage .page-header {
@@ -201,7 +204,11 @@ h1 {
 }
 
 #logopage .page-header {
-	background-color: var(--logo-color);
+	background-color: var(--main-color);
+}
+
+#gradientspage .page-header {
+	background-color: var(--main-color);
 }
 
 .slight-shadow {
@@ -249,7 +256,7 @@ h1 {
 }
 
 .project-h1 {
-	padding: 80px 0 40px 0;
+	padding: 80px 0 30px 0;
 }
 
 .project-h2 {
@@ -268,7 +275,7 @@ h1 {
 	max-width: 950px;
 	width: 90%;
 	line-height: 22px;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 
 .obscure-desc {
@@ -326,8 +333,22 @@ h1 {
 	max-width: 400px;
 	max-height: 400px;
 	margin: 20px;
-	box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
 }
+
+#project-flex {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 10px 0 0 0;
+	max-width: 1200px;
+}
+
+.project-flex-item {
+	max-width: 250px;
+	max-height: 250px;
+	margin: 12px;
+}
+
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
