@@ -340,13 +340,14 @@ h1 {
 	justify-content: center;
 	flex-wrap: wrap;
 	margin: 10px 0 0 0;
-	max-width: 1200px;
+	max-width: 1500px;
 }
 
 .project-flex-item {
-	max-width: 250px;
-	max-height: 250px;
+	max-width: 300px;
+	max-height: 300px;
 	margin: 12px;
+	transition: all 0.3s;
 }
 
 
@@ -390,6 +391,24 @@ h1 {
 		max-width: 1500px;
 	}
 
+	.flex-item {
+		max-width: 400px;
+		max-height: 400px;
+		margin: 10px 20px;
+		transition: all 0.3s;
+	}
+
+	#project-flex {
+		margin: 0 0 0 0;
+	}
+
+	.project-flex-item {
+		max-width: 400px;
+		max-height: 400px;
+		margin: 10px 20px;
+		transition: all 0.3s;
+	}
+
 	.project-h1 {
 		padding: 45px 0 20px 0;
 	}
@@ -406,13 +425,6 @@ h1 {
 
 	.project-space {
 		height: 10px;
-	}
-
-	.flex-item {
-		max-width: 400px;
-		max-height: 400px;
-		margin: 10px 20px;
-		transition: all 0.3s;
 	}
 
 	.profilepic {
