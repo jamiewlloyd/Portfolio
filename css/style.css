@@ -399,7 +399,10 @@ h1 {
 	}
 
 	#project-flex {
-		margin: 0 0 0 0;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 0 0px 0;
+		max-width: 1500px;
 	}
 
 	.project-flex-item {
