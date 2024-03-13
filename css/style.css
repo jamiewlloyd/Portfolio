@@ -32,7 +32,7 @@ body {
 	justify-items: center;
 }
 
-/* floating button */
+/* floating button
 .float {
 	position: fixed;
 	width: 60px;
@@ -50,7 +50,7 @@ body {
 
 .my-float {
 	margin-top: 16px;
-}
+} */
 
 /* Navigation */
 .page-header {
@@ -127,7 +127,7 @@ h1 {
 }
 
 /* float and link colors */
-#fluxpage .float {
+/* #fluxpage .float {
 	background-color: var(--flux-color);
 }
 
@@ -161,7 +161,7 @@ h1 {
 
 #gradientspage .float {
 	background-color: var(--main-color);
-}
+} */
 
 #obscurepage .desc-link {
 	color: var(--obscure-color);
@@ -350,13 +350,13 @@ h1 {
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
-	.float {
+	/* .float {
 		display: none;
 	}
 
 	.my-float {
 		display: none;
-	}
+	} */
 
 	.logoimg {
 		height: 80px;
