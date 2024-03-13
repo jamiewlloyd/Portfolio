@@ -258,7 +258,7 @@ h1 {
 }
 
 .flex-h1 {
-	padding: 50px 0 15px 0;
+	padding: 50px 0 20px 0;
 	font-size: 28pt;
 }
 
@@ -359,11 +359,11 @@ h1 {
 	}
 
 	.logoimg {
-		height: 50px;
+		height: 80px;
 	}
 
 	.logo {
-		height: 50px;
+		height: 80px;
 		justify-self: center;
 		padding: 0;
 	}
@@ -374,11 +374,16 @@ h1 {
 	}
 
 	.intro {
-		margin: 80px 0 60px 0;
+		margin: 70px 0 50px 0;
 	}
 
 	h1 {
-		font-size: 25pt;
+		font-size: 22pt;
+	}
+
+	.flex-h1 {
+		font-size: 23pt;
+		padding: 20px 0 20px 0;
 	}
 
 	#flexcontainer {
@@ -411,10 +416,6 @@ h1 {
 
 	.project-h1 {
 		padding: 45px 0 20px 0;
-	}
-
-	.flex-h1 {
-		padding: 40px 0 10px 0;
 	}
 
 	.project-desc {
@@ -452,12 +453,8 @@ h1 {
 
 @media only screen and (max-width: 350px) {
 
-	.intro {
-		margin: 70px 0 30px 0;
-	}
-
 	h1 {
-		font-size: 18pt;
+		font-size: 20pt;
 	}
 
 	.project-desc {
